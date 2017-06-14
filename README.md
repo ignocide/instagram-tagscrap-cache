@@ -18,7 +18,6 @@ var instagarmTagImage = new InstagarmTagImage({
     //optional, defaults
     force: false,
     cacheTime: 60*30,//30mins
-    count: 20,//search limits
     enableFirstTime: false
   }
 })
@@ -36,7 +35,6 @@ var instagarmTagImage = new InstagarmTagImage({
 |:----------|:----------|:--------|
 | force     | false     | force update, ignore cache|
 | cacheTime | false     | cached time |
-| count     | false     | search limits(media search) |
 | enableFirstTime | false | enable a loading at first time |
 
 ## useage  
