@@ -1,0 +1,30 @@
+{
+  "name": "instagram-tagscrap-cache",
+  "version": "1.0.0",
+  "description": "cache a instagram's tag images useing instagram-tagscrap",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "instagram-tagscrape": "^1.0.2",
+    "redis": "^2.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ignocide@github.com/ignocide/instagram-tagscrap-cache.git"
+  },
+  "keywords": [
+    "instagram"
+  ],
+  "author": "ignocide",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ignocide/instagram-tagscrap-cache/issues"
+  },
+  "homepage": "https://github.com/ignocide/instagram-tagscrap-cache#readme"
+}
