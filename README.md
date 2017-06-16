@@ -31,11 +31,12 @@ var instagarmTagImage = new InstagarmTagImage({
 
 #### config  
 
-| config    | required  | etc     |
-|:----------|:----------|:--------|
-| force     | false     | force update, ignore cache|
-| cacheTime | false     | cached time |
-| enableFirstTime | false | enable a loading at first time |
+| config    | required  | etc     | default |
+|:----------|:----------|:--------|:-------|
+| force     | false     | force update, ignore cache| false|
+| cacheTime | false     | cached time | 30*60|
+| aheadTime | false     | enable caching time ahead of cached time | 5*60|
+| enableFirstTime | false | enable a loading at first time | false|
 
 ## useage  
 

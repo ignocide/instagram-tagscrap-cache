@@ -1,6 +1,6 @@
 {
   "name": "instagram-tagscrap-cache",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "cache a instagram's tag images useing instagram-tagscrap",
   "main": "index.js",
   "directories": {
